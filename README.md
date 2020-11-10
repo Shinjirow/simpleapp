@@ -36,7 +36,7 @@ Sparkが入っているディレクトリにいる場合は，
 $ bin/spark-submit \
   --class "jp.ac.kyoto_su.cse.simpleapp.Main" \
   --master local \
-  path.to/simple-project-1.0.jar
+  path/to/simple-project-1.0.jar
 ```
 
 
