@@ -29,9 +29,19 @@ $ java -jar target/simpleapp.jar
 
 ## Spark の動かし方
 
-書いてね．
+ローカルで動かす場合はspark-submitコマンドを使う．
+Sparkが入っているディレクトリにいる場合は，
+
+```shell script
+$ bin/spark-submit \
+  --class "jp.ac.kyoto_su.cse.simpleapp.Main" \
+  --master local \
+  path.to/simple-project-1.0.jar
+```
+
 
 ## 参考
 
 * [Mavenで実行可能jarをビルドする方法](https://qiita.com/tarosa0001/items/e019ec4daaaf54684c53)
 * [Maven Jar マニフェスト設定](https://clash-m45.hatenablog.com/entry/20120616/1339871432)
+
